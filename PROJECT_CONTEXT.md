@@ -301,7 +301,9 @@ is a good pattern to carry through the website for visual rhythm.
 
 ## 9. CURRENT PHASE / NEXT STEP
 
-**Current status:** Homepage v2 + 6 Course Pages + 6 City Pages + Female Quran Teacher Page + Kids Quran Classes Page + About Page + Free Trial Page COMPLETE. PHASE 4 COMPLETE.
+**PHASE 4 COMPLETE — About + Free Trial pages live. Next: Phase 5 — Sanity CMS blog setup**
+
+Homepage v2 + 6 Course Pages + 6 City Pages + Female Quran Teacher Page + Kids Quran Classes Page + About Page + Free Trial Page COMPLETE.
 
 Homepage structure (confirmed, 5 sections, alternating light/dark):
 Hero (dark, two-column with real image) → What We Teach (cream,
@@ -393,6 +395,8 @@ section, contact cards (WhatsApp + Instagram).
 - **PHASE 3 COMPLETE** — Phase 3 complete — Kids Quran Classes page live at /kids-quran-classes with real image, interactive FAQ accordion, full content. Both Phase 3 topic pages now live: /female-quran-teacher + /kids-quran-classes. These are high-demand global topic pages targeting parents worldwide searching for female teachers and kids classes specifically.
 
 - **PHASE 4 COMPLETE** — Phase 4 complete — About page built at /about (placeholder content, story to be added later) + Free Trial page built at /free-trial with 3-step process (message WhatsApp → schedule class → join Zoom), what to expect section (4 bullet points), contact cards (WhatsApp + Instagram with icons). Header nav links updated to point to real pages: About → /about, Free Trial → /free-trial (replaced Contact placeholder). Total pages now: 20 (1 homepage + 6 courses + 6 cities + 2 topic pages + about + free-trial + header/footer on all).
+
+- **Phase 4 complete — About page live at /about + Free Trial page live at /free-trial. Header nav updated. Phase 4 done.**
 
 ---
 
