@@ -301,7 +301,7 @@ is a good pattern to carry through the website for visual rhythm.
 
 ## 9. CURRENT PHASE / NEXT STEP
 
-**Current status:** Homepage v2 + 6 Course Pages + 6 City Pages + Female Quran Teacher Page + Kids Quran Classes Page COMPLETE. PHASE 3 COMPLETE.
+**Current status:** Homepage v2 + 6 Course Pages + 6 City Pages + Female Quran Teacher Page + Kids Quran Classes Page + About Page + Free Trial Page COMPLETE. PHASE 4 COMPLETE.
 
 Homepage structure (confirmed, 5 sections, alternating light/dark):
 Hero (dark, two-column with real image) → What We Teach (cream,
@@ -327,7 +327,13 @@ Kids Quran Classes page live at /kids-quran-classes — global targeting,
 two-column hero, 3 main content sections (Why Online Works, What We Offer,
 FAQ), interactive FAQ accordion with custom FAQItem component.
 
-**Next step:** Phase 4 — About + Contact pages.
+About page live at /about — placeholder content with Our Story section,
+more detailed content to be added later.
+
+Free Trial page live at /free-trial — 3-step process, what to expect
+section, contact cards (WhatsApp + Instagram).
+
+**Next step:** Phase 5 — Sanity CMS blog setup.
 
 **Live site:** https://quranonlinelessons-seven.vercel.app
 
@@ -383,6 +389,10 @@ FAQ), interactive FAQ accordion with custom FAQItem component.
 - **Female Quran Teacher page built and live — PHASE 3 PART 1 COMPLETE** — Female Quran Teacher page built and live at /female-quran-teacher — two-column hero with real image (Cloudinary), 3 main content sections (Why Female Teacher Matters, What We Offer 6-card grid, FAQ), interactive FAQ accordion using custom FAQItem component with cream background matching design system. Global targeting (not city-specific), full SEO metadata, JSON-LD schema. Phase 3 Part 1 complete.
 
 - **Kids Quran Classes page built — PHASE 3 PART 2 COMPLETE** — Kids Quran Classes page built at /kids-quran-classes with two-column hero, real image via Cloudinary, 3 main content sections (Why Online Works for Kids, What We Offer 6-card grid, FAQ with 6 questions), interactive FAQ accordion using custom FAQItem component, full SEO metadata. Global targeting (not city-specific). Phase 3 Part 2 complete. Phase 3 complete — Female Teacher + Kids pages built.
+
+- **PHASE 3 COMPLETE** — Phase 3 complete — Kids Quran Classes page live at /kids-quran-classes with real image, interactive FAQ accordion, full content. Both Phase 3 topic pages now live: /female-quran-teacher + /kids-quran-classes. These are high-demand global topic pages targeting parents worldwide searching for female teachers and kids classes specifically.
+
+- **PHASE 4 COMPLETE** — Phase 4 complete — About page built at /about (placeholder content, story to be added later) + Free Trial page built at /free-trial with 3-step process (message WhatsApp → schedule class → join Zoom), what to expect section (4 bullet points), contact cards (WhatsApp + Instagram with icons). Header nav links updated to point to real pages: About → /about, Free Trial → /free-trial (replaced Contact placeholder). Total pages now: 20 (1 homepage + 6 courses + 6 cities + 2 topic pages + about + free-trial + header/footer on all).
 
 ---
 

@@ -11,7 +11,7 @@ export default function Header() {
     { label: "Home", href: "/" },
     { label: "Courses", href: "/#what-we-teach" },
     { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
+    // { label: "Free Trial", href: "/free-trial" },
   ];
 
   return (
