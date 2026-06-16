@@ -336,5 +336,82 @@ export const cities: City[] = [
     ctaSubtext: "Join families across London who are ensuring their children grow up connected to their faith — from home, with a teacher they can trust.",
     schemaServiceArea: "London, United Kingdom",
     nearbyAreas: ["Waltham Forest", "Newham", "Redbridge", "Ealing", "Brent", "Hounslow", "Tower Hamlets"]
+  },
+  {
+    slug: "online-quran-classes-sydney",
+    city: "Sydney",
+    country: "Australia",
+    title: "Online Quran Classes in Sydney | Live 1-on-1 | Quran Online Lessons",
+    description: "Looking for online Quran classes in Sydney? Live one-on-one classes via Zoom for kids, adults & sisters. Female teachers available. Flexible timings. Book a free trial today.",
+    heroHeading: "Online Quran Classes in Sydney",
+    heroSubtext: "Live one-on-one Quran classes via Zoom for children, adults and sisters across Sydney. Female teachers available. Flexible timings to suit your schedule. First class completely free.",
+    imageUrl: "https://res.cloudinary.com/dmx22dkwy/image/upload/v1781577339/Lakemba-Mosque_zx7c4b.jpg",
+    imagePlaceholderLabel: "Lakemba Mosque Sydney exterior",
+    localIntroHeading: "Serving Sydney's Muslim Community",
+    localIntroContent: [
+      "Sydney is home to the largest Muslim community in Australia, with over 40% of all Australian Muslims living across Greater Sydney. The western suburbs — particularly Lakemba, Auburn, Bankstown, Punchbowl, Fairfield, and Liverpool — are home to a well-established Pakistani and broader Muslim community that has been part of Sydney life for decades. Lakemba in particular is widely regarded as the heart of Muslim Sydney, home to the famous Lakemba Mosque and a thriving community of families deeply connected to their Islamic faith.",
+      "For Pakistani Muslim families in Sydney, the challenge of raising children with a strong Quranic foundation in a busy Australian city is very real. School schedules, extracurricular activities, and the distance from extended family and traditional religious infrastructure can all make consistent Quran education difficult to maintain. Online one-on-one classes remove every one of those barriers — bringing a trusted, experienced teacher directly into your home, at a time that suits your family.",
+      "Our online Quran academy serves Sydney families with live classes via Zoom, taught by experienced teachers who understand the background and values of Pakistani Muslim diaspora families. We teach students of all ages and levels — from young children starting with the Arabic alphabet, to adults who want to finally learn Tajweed properly, to those working toward full Hifz."
+    ],
+    featuresHeading: "Why Sydney Families Choose Us",
+    features: [
+      {
+        title: "Female Teachers Available",
+        description: "Female teachers are available for all sisters and young girls across Sydney. Every student is matched with a teacher their family is fully comfortable with."
+      },
+      {
+        title: "Flexible Timings for Sydney Families",
+        description: "Classes scheduled in Australian Eastern Time — morning, evening and weekend slots designed around Sydney school hours and family schedules."
+      },
+      {
+        title: "All Ages Welcome",
+        description: "From young children in primary school to adults and elders — complete beginners are welcome and we work at whatever pace suits each student."
+      },
+      {
+        title: "One-on-One Live Classes",
+        description: "Every session is private, live, and entirely focused on your child. No group classes, no distractions — just a dedicated teacher and one student."
+      },
+      {
+        title: "Complete Curriculum",
+        description: "Hifz, Tajweed, Qaida, Tafseer, Kalima and Masnoon Du'ain — a full Islamic education delivered live online for Sydney students."
+      },
+      {
+        title: "Free Trial Class",
+        description: "Book a completely free first class with no commitment. See how online learning works for your child before making any decision."
+      }
+    ],
+    coursesHeading: "What We Teach",
+    coursesIntro: "We offer a complete Quranic curriculum for Sydney students of all ages and levels — from the very first Arabic letters through to full Qur'an memorisation and Tafseer.",
+    faqHeading: "Questions From Sydney Families",
+    faqs: [
+      {
+        question: "Are female Quran teachers available for my daughter in Sydney?",
+        answer: "Yes — female teachers are available for all sisters and young girls. We understand how important this is for Sydney families and we ensure every student is paired with a teacher they feel completely comfortable learning from."
+      },
+      {
+        question: "What times are classes available for Sydney students?",
+        answer: "Classes are scheduled in Australian Eastern Time, with morning, evening and weekend slots available. We work around Sydney school hours and your family's schedule — just let us know what times suit you best."
+      },
+      {
+        question: "My child was born in Sydney and has never learned Arabic. Where do they start?",
+        answer: "They start with Qaida — the Arabic alphabet and reading foundations. This is exactly where most Australian-born children begin, and there is no minimum level required. Many of our Sydney students start without knowing a single Arabic letter and progress to reading the Qur'an within months."
+      },
+      {
+        question: "How do online Quran classes work for Sydney students?",
+        answer: "Classes take place via Zoom, which most Sydney families already have on their phone, tablet or laptop. Your child joins at the agreed time and the teacher conducts the class live — listening, correcting and guiding in real time, exactly as a face-to-face class would work, just from the comfort of your Sydney home."
+      },
+      {
+        question: "Is online Quran learning as effective as a local class in Sydney?",
+        answer: "For personal attention, online is often more effective. A typical group Quran class may have many students sharing one teacher — your child gets only minutes of direct focus. Our classes are entirely one-on-one, so every minute is dedicated to your child's individual progress and mistakes are corrected immediately."
+      },
+      {
+        question: "How much do classes cost for Sydney families?",
+        answer: "The first class is completely free with no commitment. After that, we keep pricing simple and fair. Message us on WhatsApp and we will discuss a schedule and fees that work for your family."
+      }
+    ],
+    ctaHeading: "Start Your Child's Qur'an Journey Today",
+    ctaSubtext: "Join families across Sydney who are giving their children a strong foundation in their faith — from home, with a teacher they can trust.",
+    schemaServiceArea: "Sydney, Australia",
+    nearbyAreas: ["Lakemba", "Auburn", "Bankstown", "Punchbowl", "Fairfield", "Liverpool", "Parramatta"]
   }
 ];
