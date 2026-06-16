@@ -365,6 +365,8 @@ review current build and discuss plan before proceeding.
 
 - **Real images added to all 6 course pages** — Real images added to all 6 course pages via Cloudinary URLs, ImagePlaceholder replaced with Next.js Image component
 
+- **Fixed course page hero image height** — Changed from aspect-video to min-h with items-stretch so images fill full height of text content, no more top/bottom cropping
+
 ---
 
 ## 11. IMAGE PLACEHOLDERS — TRACKING LIST
