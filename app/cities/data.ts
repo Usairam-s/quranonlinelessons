@@ -182,5 +182,82 @@ export const cities: City[] = [
     ctaSubtext: "Join families across Bradford who are ensuring their children grow up connected to their faith — from home, with a teacher they can trust.",
     schemaServiceArea: "Bradford, United Kingdom",
     nearbyAreas: ["Manningham", "Girlington", "Toller", "Great Horton", "Heaton", "Thornton", "Idle"]
+  },
+  {
+    slug: "online-quran-classes-manchester",
+    city: "Manchester",
+    country: "UK",
+    title: "Online Quran Classes in Manchester | Live 1-on-1 | Quran Online Lessons",
+    description: "Looking for online Quran classes in Manchester? Live one-on-one classes via Zoom for kids, adults & sisters. Female teachers available. Flexible timings. Book a free trial today.",
+    heroHeading: "Online Quran Classes in Manchester",
+    heroSubtext: "Live one-on-one Quran classes via Zoom for children, adults and sisters across Manchester. Female teachers available. Flexible timings to suit your schedule. First class completely free.",
+    imageUrl: "https://res.cloudinary.com/dmx22dkwy/image/upload/v1781576621/EmZjUUzDWkclqphqbRs37r3LhojwYj4kQcDPYuFS%D9%85%D8%B3%D8%AC%D8%AF_%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1_%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A_8_shp2d8.jpg",
+    imagePlaceholderLabel: "Manchester Central Mosque exterior",
+    localIntroHeading: "Serving Manchester's Muslim Community",
+    localIntroContent: [
+      "Manchester is home to one of the most vibrant and diverse Muslim communities in the United Kingdom, with over 100,000 Muslims living across the city and the wider Greater Manchester area. Families across Rusholme, Longsight, Cheetham Hill, Levenshulme, and Oldham have built strong Islamic traditions across generations — and for many, Quranic education remains a cornerstone of family life.",
+      "The famous Curry Mile in Rusholme sits at the heart of Manchester's South Asian Muslim community, but the community stretches far beyond it. Pakistani, Bangladeshi, and Arab families across Greater Manchester share a common concern — ensuring their children grow up with a genuine connection to the Qur'an, even as life in a busy British city pulls in many directions.",
+      "Our online Quran academy was built for families exactly like yours. Live, one-on-one classes via Zoom mean your child gets a dedicated teacher's full attention — without the travel, without the group setting, and without the rigid schedule that local mosque classes often require. We teach students of all ages and levels, from complete beginners to those working toward Hifz."
+    ],
+    featuresHeading: "Why Manchester Families Choose Us",
+    features: [
+      {
+        title: "Female Teachers Available",
+        description: "Female teachers are available for all sisters and young girls across Manchester. We ensure every student is matched with a teacher they and their family are comfortable with."
+      },
+      {
+        title: "Flexible Timings for Manchester Families",
+        description: "Morning, evening and weekend slots available — all scheduled in UK timezone around Manchester school hours and family commitments."
+      },
+      {
+        title: "All Ages Welcome",
+        description: "From young children in primary school to adults and elders — complete beginners are welcome and we work at whatever pace suits each student."
+      },
+      {
+        title: "One-on-One Live Classes",
+        description: "Every session is private, live, and entirely focused on your child. No group classes, no distractions — just a teacher and a student working together."
+      },
+      {
+        title: "Complete Curriculum",
+        description: "Hifz, Tajweed, Qaida, Tafseer, Kalima and Masnoon Du'ain — a full Islamic education delivered live online for Manchester students."
+      },
+      {
+        title: "Free Trial Class",
+        description: "Book a completely free first class with no commitment. See how online learning works for your child before making any decision."
+      }
+    ],
+    coursesHeading: "What We Teach",
+    coursesIntro: "We offer a complete Quranic curriculum for Manchester students of all ages and levels — from the very first Arabic letters through to full Qur'an memorisation and Tafseer.",
+    faqHeading: "Questions From Manchester Families",
+    faqs: [
+      {
+        question: "Are female Quran teachers available for my daughter in Manchester?",
+        answer: "Yes — female teachers are available for all sisters and young girls. We understand this is a priority for many Manchester families and we make sure every student is paired with a teacher they feel comfortable learning from."
+      },
+      {
+        question: "What times are classes available for Manchester students?",
+        answer: "We offer morning, evening and weekend slots, all scheduled in UK timezone. Whether your child needs a class before or after school, or on a Saturday morning — we will find a time that works around your Manchester family's schedule."
+      },
+      {
+        question: "My child has never learned Arabic. Can they join?",
+        answer: "Absolutely — many of our Manchester students start from complete zero. We begin with Qaida, teaching the Arabic alphabet and reading foundations step by step. There is no minimum level and no rush — we go at the pace that suits your child."
+      },
+      {
+        question: "How do online Quran classes work?",
+        answer: "Classes take place via Zoom, which most Manchester families already have on their phone, tablet or laptop. Your child joins at the agreed time and the teacher conducts the class live — listening, correcting and guiding exactly as a face-to-face class would work, just from the comfort of home."
+      },
+      {
+        question: "How is this different from a local mosque class in Manchester?",
+        answer: "The key difference is personal attention. A typical mosque class in Manchester may have fifteen to twenty students sharing one teacher — your child gets only a few minutes of direct focus. Our classes are entirely one-on-one, so every minute is dedicated to your child's individual progress."
+      },
+      {
+        question: "How much do classes cost?",
+        answer: "The first class is completely free with no commitment. After that, we keep pricing simple and affordable for Manchester families. Message us on WhatsApp and we will discuss a schedule and fees that work for you."
+      }
+    ],
+    ctaHeading: "Start Your Child's Qur'an Journey Today",
+    ctaSubtext: "Join families across Manchester who are giving their children a strong foundation in their faith — from home, with a teacher they can trust.",
+    schemaServiceArea: "Manchester, United Kingdom",
+    nearbyAreas: ["Rusholme", "Longsight", "Cheetham Hill", "Levenshulme", "Didsbury", "Oldham", "Rochdale"]
   }
 ];
