@@ -413,5 +413,82 @@ export const cities: City[] = [
     ctaSubtext: "Join families across Sydney who are giving their children a strong foundation in their faith — from home, with a teacher they can trust.",
     schemaServiceArea: "Sydney, Australia",
     nearbyAreas: ["Lakemba", "Auburn", "Bankstown", "Punchbowl", "Fairfield", "Liverpool", "Parramatta"]
+  },
+  {
+    slug: "online-quran-classes-melbourne",
+    city: "Melbourne",
+    country: "Australia",
+    title: "Online Quran Classes in Melbourne | Live 1-on-1 | Quran Online Lessons",
+    description: "Looking for online Quran classes in Melbourne? Live one-on-one classes via Zoom for kids, adults & sisters. Female teachers available. Flexible timings. Book a free trial today.",
+    heroHeading: "Online Quran Classes in Melbourne",
+    heroSubtext: "Live one-on-one Quran classes via Zoom for children, adults and sisters across Melbourne. Female teachers available. Flexible timings to suit your schedule. First class completely free.",
+    imageUrl: "https://res.cloudinary.com/dmx22dkwy/image/upload/v1781578130/59368857_1630237726573637_r_pyuisj.jpg",
+    imagePlaceholderLabel: "Melbourne city Australia",
+    localIntroHeading: "Serving Melbourne's Muslim Community",
+    localIntroContent: [
+      "Melbourne is home to the second largest Muslim community in Australia, with over 30% of all Australian Muslims living across Greater Melbourne. The northern and western suburbs — particularly Broadmeadows, Coolaroo, Thomastown, Craigieburn, and Truganina — have become home to a thriving Pakistani and broader Muslim community that continues to grow rapidly. Melbourne's Muslim families are deeply committed to their faith and to ensuring their children grow up with a strong Islamic foundation.",
+      "For Pakistani Muslim families in Melbourne, maintaining consistent Quranic education alongside the demands of Australian school life, work, and family commitments can be genuinely challenging. Local mosque classes are not always conveniently timed, teachers are not always easy to find, and group settings mean children receive very little individual attention. Online one-on-one classes solve all of these problems — bringing a trusted, dedicated teacher directly into your home at a time that works for your family.",
+      "Our online Quran academy serves Melbourne families with live, personal classes via Zoom — taught by experienced teachers who understand the values and background of Pakistani Muslim diaspora families. We teach students of every age and level, from young children just starting with the Arabic alphabet, to teenagers wanting to improve their Tajweed, to adults who have always wanted to learn properly but never had the right opportunity."
+    ],
+    featuresHeading: "Why Melbourne Families Choose Us",
+    features: [
+      {
+        title: "Female Teachers Available",
+        description: "Female teachers are available for all sisters and young girls across Melbourne. Every student is matched with a teacher their family is fully comfortable with."
+      },
+      {
+        title: "Flexible Timings for Melbourne Families",
+        description: "Classes scheduled in Australian Eastern Time — morning, evening and weekend slots designed around Melbourne school hours and family schedules."
+      },
+      {
+        title: "All Ages Welcome",
+        description: "From young children in primary school to adults and elders — complete beginners are welcome and we work at whatever pace suits each individual student."
+      },
+      {
+        title: "One-on-One Live Classes",
+        description: "Every session is private, live, and entirely focused on your child. No group classes, no distractions — just a dedicated teacher and one student."
+      },
+      {
+        title: "Complete Curriculum",
+        description: "Hifz, Tajweed, Qaida, Tafseer, Kalima and Masnoon Du'ain — everything a Melbourne student needs from their very first Arabic letter to full Qur'an memorisation."
+      },
+      {
+        title: "Free Trial Class",
+        description: "Book a completely free first class with no commitment. See how online learning works for your child before making any decision."
+      }
+    ],
+    coursesHeading: "What We Teach",
+    coursesIntro: "We offer a complete Quranic curriculum for Melbourne students of all ages and levels — from the very first Arabic letters through to full Qur'an memorisation and Tafseer.",
+    faqHeading: "Questions From Melbourne Families",
+    faqs: [
+      {
+        question: "Are female Quran teachers available for my daughter in Melbourne?",
+        answer: "Yes — female teachers are available for all sisters and young girls. We understand how important this is for Melbourne families and we ensure every student is paired with a teacher they feel completely comfortable learning from."
+      },
+      {
+        question: "What times are classes available for Melbourne students?",
+        answer: "Classes are scheduled in Australian Eastern Time, with morning, evening and weekend slots available. We work around Melbourne school hours and your family's schedule — just let us know what times suit you best and we will find something that works."
+      },
+      {
+        question: "My child was born in Melbourne and has never learned Arabic. Where do they start?",
+        answer: "They start with Qaida — the Arabic alphabet and reading foundations. This is exactly where most Australian-born children begin, and there is no minimum level required. Many of our Melbourne students start without knowing a single Arabic letter and progress to reading the Qur'an confidently within months."
+      },
+      {
+        question: "How do online Quran classes work for Melbourne students?",
+        answer: "Classes take place via Zoom, which most Melbourne families already have on their phone, tablet or laptop. Your child joins at the agreed time and the teacher conducts the class live — listening, correcting and guiding in real time, exactly as a face-to-face class would work, just from the comfort of your Melbourne home."
+      },
+      {
+        question: "Is online Quran learning as effective as a local class in Melbourne?",
+        answer: "For personal attention, online is often more effective. A typical group Quran class may have many students sharing one teacher — your child gets only minutes of direct focus per session. Our classes are entirely one-on-one, so every minute is dedicated to your child's individual progress and corrections happen immediately."
+      },
+      {
+        question: "How much do classes cost for Melbourne families?",
+        answer: "The first class is completely free with no commitment. After that, we keep pricing simple and fair for Melbourne families. Message us on WhatsApp and we will discuss a schedule and fees that work for you."
+      }
+    ],
+    ctaHeading: "Begin Your Child's Qur'an Journey Today",
+    ctaSubtext: "Join families across Melbourne who are giving their children a strong foundation in their faith — from home, with a teacher they can trust.",
+    schemaServiceArea: "Melbourne, Australia",
+    nearbyAreas: ["Broadmeadows", "Coolaroo", "Thomastown", "Craigieburn", "Truganina", "Dandenong", "Footscray"]
   }
 ];
