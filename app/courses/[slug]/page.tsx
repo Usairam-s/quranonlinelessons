@@ -78,7 +78,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
           <span className="text-brand-white font-medium">{course.name}</span>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start max-w-2xl mx-auto lg:mx-0">
             <div className="inline-block mb-6 px-6 py-2 border-2 border-brand-gold rounded-full text-brand-gold text-sm font-medium uppercase tracking-wide">
               ONLINE COURSE
@@ -104,7 +104,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
             </div>
           </div>
 
-          <div className="relative w-full aspect-video rounded-2xl overflow-hidden">
+          <div className="relative w-full rounded-2xl overflow-hidden min-h-[320px] md:min-h-[420px] lg:min-h-[500px] h-full">
             <Image
               src={course.imageUrl}
               alt={`${course.name} online classes - Learn Quran Online`}
