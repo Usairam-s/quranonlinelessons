@@ -105,5 +105,82 @@ export const cities: City[] = [
     ctaSubtext: "Join families across Birmingham who are giving their children the gift of the Qur'an — from the comfort of home, with a teacher they can trust.",
     schemaServiceArea: "Birmingham, United Kingdom",
     nearbyAreas: ["Sparkbrook", "Small Heath", "Handsworth", "Alum Rock", "Bordesley Green", "Aston", "Erdington"]
+  },
+  {
+    slug: "online-quran-classes-bradford",
+    city: "Bradford",
+    country: "UK",
+    title: "Online Quran Classes in Bradford | Live 1-on-1 | Quran Online Lessons",
+    description: "Looking for online Quran classes in Bradford? Live one-on-one classes via Zoom for kids, adults & sisters. Female teachers available. Flexible timings. Book a free trial today.",
+    heroHeading: "Online Quran Classes in Bradford",
+    heroSubtext: "Live one-on-one Quran classes via Zoom for children, adults and sisters across Bradford. Female teachers available. Flexible timings to suit your schedule. First class completely free.",
+    imageUrl: "https://res.cloudinary.com/dmx22dkwy/image/upload/v1781576143/13a_i8qafd.jpg",
+    imagePlaceholderLabel: "Bradford Grand Mosque or Bradford city Pakistani community",
+    localIntroHeading: "Serving Bradford's Muslim Community",
+    localIntroContent: [
+      "Bradford has one of the highest concentrations of Pakistani Muslims anywhere in the United Kingdom — roughly one in four Bradford residents is of Pakistani heritage, making it one of the most established South Asian Muslim communities in the country. Families across Manningham, Girlington, Toller, Great Horton, and Heaton have deep roots in Islamic tradition and have long prioritised Quranic education for their children.",
+      "As Bradford's Muslim community has grown across generations, the challenge of maintaining that connection with the Qur'an has grown alongside it. Children raised in Bradford are navigating two worlds — and many parents feel a genuine urgency to ensure their children grow up with a strong foundation in their deen, their language, and their identity. Online Quran classes make that possible without disrupting busy family schedules.",
+      "Our academy serves Bradford families with live, one-on-one classes via Zoom — taught by experienced, trusted teachers who understand the background and values of Pakistani Muslim families. Whether your child is starting from the very beginning with Qaida, working toward Hifz, or an adult wanting to finally learn Tajweed properly — we teach every level, every age, with patience and care."
+    ],
+    featuresHeading: "Why Bradford Families Choose Us",
+    features: [
+      {
+        title: "Female Teachers Available",
+        description: "Female teachers are available for sisters and young girls. We know this matters deeply to Bradford families and we ensure every student is comfortable with their teacher."
+      },
+      {
+        title: "Flexible Timings for Bradford Families",
+        description: "Morning, evening and weekend slots available — scheduled around UK timezone and Bradford school hours so learning never disrupts family life."
+      },
+      {
+        title: "All Ages Welcome",
+        description: "From young children in primary school to adults and elders — we welcome complete beginners and work at whatever pace suits the student."
+      },
+      {
+        title: "One-on-One Live Classes",
+        description: "Every session is private, live, and entirely focused on your child. No group classes, no waiting, no distractions — just a teacher and a student."
+      },
+      {
+        title: "Complete Curriculum",
+        description: "Hifz, Tajweed, Qaida, Tafseer, Kalima and Masnoon Du'ain — everything a Bradford student needs from their first Arabic letter to full Qur'an memorisation."
+      },
+      {
+        title: "Free Trial Class",
+        description: "Book a completely free first class with no commitment. See how online learning works for your child before making any decision."
+      }
+    ],
+    coursesHeading: "What We Teach",
+    coursesIntro: "We offer a complete Quranic curriculum for Bradford students of all ages and levels — from the very first Arabic letters through to full Qur'an memorisation and Tafseer.",
+    faqHeading: "Questions From Bradford Families",
+    faqs: [
+      {
+        question: "Are female Quran teachers available for my daughter in Bradford?",
+        answer: "Yes — female teachers are available for all sisters and young girls. This is something we prioritise because we know how important it is for Bradford families. Every student is matched with a teacher they and their parents are fully comfortable with."
+      },
+      {
+        question: "What times are classes available for Bradford students?",
+        answer: "We offer morning, evening and weekend slots, all in UK timezone. Whether your child needs a class before school, after school, or on a Saturday — we will find a time that fits around your family's schedule."
+      },
+      {
+        question: "My child was born in Bradford and does not know any Arabic. Where do they start?",
+        answer: "They start with Qaida — the Arabic alphabet and reading foundations. This is exactly where most Bradford-born children begin, and there is absolutely no minimum level required. Many of our students start without knowing a single Arabic letter and progress to reading the Qur'an within months."
+      },
+      {
+        question: "How do the online classes actually work?",
+        answer: "Classes take place via Zoom, which you likely already have on your phone or laptop. Your child joins at the agreed time and the teacher conducts the class live — listening, correcting and guiding in real time. It works exactly like a face-to-face class, just from the comfort of your home in Bradford."
+      },
+      {
+        question: "Is online Quran learning as effective as going to a local mosque in Bradford?",
+        answer: "For one-on-one attention, online is often more effective. In a typical Bradford mosque class, a teacher may have fifteen to twenty children in one session — your child gets only a few minutes of direct attention. Our classes are entirely one-on-one, every session, so every minute is focused on your child's individual progress and mistakes are corrected immediately."
+      },
+      {
+        question: "How much do classes cost?",
+        answer: "The first class is completely free with no commitment. After that, we keep pricing simple and fair for Bradford families. Message us on WhatsApp and we will discuss a schedule and fees that work for you."
+      }
+    ],
+    ctaHeading: "Give Your Child the Gift of the Qur'an",
+    ctaSubtext: "Join families across Bradford who are ensuring their children grow up connected to their faith — from home, with a teacher they can trust.",
+    schemaServiceArea: "Bradford, United Kingdom",
+    nearbyAreas: ["Manningham", "Girlington", "Toller", "Great Horton", "Heaton", "Thornton", "Idle"]
   }
 ];

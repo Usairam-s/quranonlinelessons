@@ -145,8 +145,8 @@ initially due to timezone difficulty — 9-13hrs behind Pakistan)
 
 **Primary cities for landing pages (Phase order):**
 
-1. Birmingham, UK
-2. Bradford, UK
+1. Birmingham, UK — LIVE
+2. Bradford, UK — BUILT (pending image)
 3. Manchester, UK (later)
 4. London, UK (later — high competition, lower priority)
 5. Sydney, Australia
@@ -366,6 +366,8 @@ Phase 2):**
 - **Fixed course page hero image height** — Changed from aspect-video to min-h with items-stretch so images fill full height of text content, no more top/bottom cropping
 
 - **Birmingham city page complete** — Built dynamic city landing page at /online-quran-classes-birmingham with full SEO metadata, LocalBusiness + FAQPage JSON-LD schemas, city-specific content (Sparkbrook, Small Heath, Handsworth areas), 6 locally-contextualized FAQs, features section, courses overview with links to main course pages, and dedicated FAQSection component. Added real image (Birmingham Central Mosque entrance, Cloudinary). Template structure now ready for Bradford, Sydney, Melbourne city pages. Phase 2 started.
+
+- **Bradford city page data added** — Bradford city page data added to app/cities/data.ts with full content (Manningham, Girlington, Toller, Great Horton, Heaton areas), Bradford-specific FAQs, and placeholder imageUrl. Page builds successfully at /online-quran-classes-bradford — pending real image before push to production.
 
 ---
 
