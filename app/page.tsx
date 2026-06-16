@@ -1,8 +1,8 @@
 import DarkSection from "./components/DarkSection";
 import LightSection from "./components/LightSection";
 import QuoteBox from "./components/QuoteBox";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 import Link from "next/link";
+import Image from "next/image";
 import { BookOpen, Type, Languages, BookMarked, Hand, UserRound, Clock, Users, Video, GraduationCap, ClipboardCheck, MessageCircle, AtSign, Repeat, Sparkles } from "lucide-react";
 
 
@@ -118,10 +118,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full">
-            <ImagePlaceholder
-              label="Open Quran on wooden rehal stand, dark green background, warm lighting"
-              aspectRatio="square"
+          <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
+            <Image
+              src="https://res.cloudinary.com/dmx22dkwy/image/upload/v1781570023/pexels-firdevs-3490736-15694745_xbhwro.jpg"
+              alt="Open Quran on wooden rehal stand - Learn Quran Online"
+              fill
+              className="object-cover"
+              priority
             />
           </div>
         </div>

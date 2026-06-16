@@ -370,7 +370,7 @@ review current build and discuss plan before proceeding.
 
 | Page/Section | Placeholder Label | Status |
 | :--- | :--- | :--- |
-| Homepage Hero | Open Quran on wooden rehal stand, dark green background, warm lighting | Pending |
+| Homepage Hero | Open Quran on wooden rehal stand, dark green background, warm lighting | Complete — Cloudinary URL added |
 | Hifz Course Hero | Student reciting Quran from memory with teacher listening on video call | Pending |
 | Tajweed Course Hero | Close-up of Quran page with Tajweed colour-coded markings | Pending |
 | Qaida Course Hero | Young child learning Arabic alphabet with teacher online, Qaida book visible | Pending |

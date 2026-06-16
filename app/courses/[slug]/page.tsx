@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { courses } from "../data";
 import DarkSection from "../../components/DarkSection";
 import LightSection from "../../components/LightSection";
-import ImagePlaceholder from "../../../components/ImagePlaceholder";
 
 interface CoursePageProps {
   params: Promise<{ slug: string }>;
@@ -104,10 +104,13 @@ export default async function CoursePage({ params }: CoursePageProps) {
             </div>
           </div>
 
-          <div className="w-full">
-            <ImagePlaceholder
-              label={course.imagePlaceholderLabel}
-              aspectRatio="video"
+          <div className="relative w-full aspect-video rounded-2xl overflow-hidden">
+            <Image
+              src={course.imageUrl}
+              alt={`${course.name} online classes - Learn Quran Online`}
+              fill
+              className="object-cover"
+              priority
             />
           </div>
         </div>
