@@ -150,7 +150,7 @@ initially due to timezone difficulty — 9-13hrs behind Pakistan)
 3. Manchester, UK — LIVE
 4. London, UK — LIVE
 5. Sydney, Australia — LIVE
-6. Melbourne, Australia
+6. Melbourne, Australia — LIVE
 
 **SEO Site Structure (planned):**
 
@@ -301,20 +301,12 @@ is a good pattern to carry through the website for visual rhythm.
 
 ## 9. CURRENT PHASE / NEXT STEP
 
-**Current status:** Homepage v2 + 6 Course Pages COMPLETE. Phase 2 started — Birmingham city page LIVE.
+**Current status:** Homepage v2 + 6 Course Pages + 6 City Pages COMPLETE. PHASE 2 COMPLETE.
 
 Homepage structure (confirmed, 5 sections, alternating light/dark):
-Hero (dark, two-column with image placeholder) → What We Teach (cream,
+Hero (dark, two-column with real image) → What We Teach (cream,
 6-item clickable grid) → Our Features (dark, 6 features + QuoteBox) →
 CTA Banner (cream) → Footer (dark).
-
-NOTE: A "USP Trust Bar" was added below the Hero in an earlier step,
-then REMOVED (commented out manually by developer due to agent errors
-during a later edit attempt) — it was redundant with "Our Features"
-anyway. Homepage is back to the clean 5-section structure above. If the
-commented-out USP bar code is still sitting in app/page.tsx, it can be
-deleted entirely next time that file is touched — not urgent, just
-confirming the current intended state.
 
 All 6 course pages built and working: /courses/hifz, /courses/tajweed,
 /courses/qaida, /courses/tafseer, /courses/kalima-tawheed,
@@ -322,11 +314,12 @@ All 6 course pages built and working: /courses/hifz, /courses/tajweed,
 breadcrumbs (Home + Courses links functional), and all clickable from
 homepage "What We Teach" grid.
 
-**Outstanding from earlier discussion (not yet done, revisit before/with
-Phase 2):**
-- All image placeholders now replaced with real images (see Section 11).
+All 6 city pages built and working: Birmingham, Bradford, Manchester,
+London (UK) + Sydney, Melbourne (Australia) — each with full SEO metadata,
+LocalBusiness + FAQPage JSON-LD schemas, city-specific content, 6
+locally-contextualized FAQs, real images via Cloudinary.
 
-**Next step:** Phase 2 in progress — Birmingham city page live on Vercel at /online-quran-classes-birmingham with real image (Birmingham Central Mosque via Cloudinary). Template ready for next cities: Bradford, Sydney, Melbourne.
+**Next step:** Phase 3 — Female Quran Teacher page + Kids Quran Classes page + Google Search Console setup + sitemap submission.
 
 **Live site:** https://quranonlinelessons-seven.vercel.app
 
@@ -376,6 +369,8 @@ Phase 2):**
 - **London city page live on Vercel** — London city page added with full content (Waltham Forest, Newham, Redbridge, Ealing, Brent, Hounslow, Tower Hamlets areas), London-specific FAQs emphasizing established professional Pakistani community, and real image (East London Mosque, Cloudinary). All 4 UK city pages now live: Birmingham, Bradford, Manchester, London. UK local SEO coverage complete.
 
 - **Sydney city page live on Vercel** — Sydney city page added with full content (Lakemba, Auburn, Bankstown, Punchbowl, Fairfield, Liverpool, Parramatta areas), Sydney-specific FAQs emphasizing Lakemba as heart of Muslim Sydney, Australian Eastern Time scheduling, and real image (Lakemba Mosque, Cloudinary). 5 city pages now live: Birmingham, Bradford, Manchester, London, Sydney.
+
+- **Melbourne city page live — PHASE 2 COMPLETE** — Melbourne city page added with full content (Broadmeadows, Coolaroo, Thomastown, Craigieburn, Truganina, Dandenong, Footscray areas), Melbourne-specific FAQs, and real image (Melbourne city, Cloudinary). All 6 city pages now built and live on Vercel: 4 UK cities (Birmingham, Bradford, Manchester, London) + 2 Australia cities (Sydney, Melbourne). Total pages: 16 (1 homepage + 6 course pages + 6 city pages + header/footer on all). Phase 2 complete — local SEO foundation in place for UK and Australia.
 
 ---
 
