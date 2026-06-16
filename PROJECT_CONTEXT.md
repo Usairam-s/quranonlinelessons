@@ -324,10 +324,6 @@ homepage "What We Teach" grid.
 
 **Outstanding from earlier discussion (not yet done, revisit before/with
 Phase 2):**
-- No site-wide header/navigation bar exists yet — course pages currently
-  only have a breadcrumb, no way to navigate to other sections except
-  "Home". Consider adding a simple sticky header (logo + nav links) before
-  building many more pages.
 - 7 image placeholders still pending real images (see Section 11) —
   developer to source and provide.
 
@@ -336,6 +332,8 @@ Phase 2):**
 review current build and discuss plan before proceeding.
 
 **Live site:** https://quranonlinelessons-seven.vercel.app
+
+**Header/Navigation:** Global Header component complete and active on all pages.
 
 ---
 
@@ -363,6 +361,8 @@ review current build and discuss plan before proceeding.
 - **USP Bar removed** — Developer manually commented out the USP Trust Bar section in app/page.tsx (agent was hitting errors attempting a clean removal). Confirmed redundant with "Our Features" section. Homepage confirmed back to clean 5-section structure: Hero → What We Teach → Our Features → CTA Banner → Footer. Total course pages: 6 (hifz, tajweed, qaida, tafseer, kalima-tawheed, masnoon-duas), all linked from homepage grid.
 
 - **Google Analytics 4 added** — Google Analytics 4 added (G-YW2WQ0KRLF) via @next/third-parties/google in root layout, pushed to GitHub, auto-deployed on Vercel
+
+- **Global Header component created** — Global Header component created (app/components/Header.tsx) with sticky dark-green bar, brand name, desktop nav links (Home/Courses/About/Contact), gold CTA button (Book Free Trial → WhatsApp), mobile hamburger menu with dropdown. Added to root layout — active on all pages.
 
 ---
 
