@@ -259,5 +259,82 @@ export const cities: City[] = [
     ctaSubtext: "Join families across Manchester who are giving their children a strong foundation in their faith — from home, with a teacher they can trust.",
     schemaServiceArea: "Manchester, United Kingdom",
     nearbyAreas: ["Rusholme", "Longsight", "Cheetham Hill", "Levenshulme", "Didsbury", "Oldham", "Rochdale"]
+  },
+  {
+    slug: "online-quran-classes-london",
+    city: "London",
+    country: "UK",
+    title: "Online Quran Classes in London | Live 1-on-1 | Quran Online Lessons",
+    description: "Looking for online Quran classes in London? Live one-on-one classes via Zoom for kids, adults & sisters. Female teachers available. Flexible timings. Book a free trial today.",
+    heroHeading: "Online Quran Classes in London",
+    heroSubtext: "Live one-on-one Quran classes via Zoom for children, adults and sisters across London. Female teachers available. Flexible timings to suit your schedule. First class completely free.",
+    imageUrl: "https://res.cloudinary.com/dmx22dkwy/image/upload/v1781576816/40723_body_10-October-2019-_RJ__1_msiuwl.jpg",
+    imagePlaceholderLabel: "East London Mosque exterior",
+    localIntroHeading: "Serving London's Muslim Community",
+    localIntroContent: [
+      "London is home to the largest Pakistani Muslim community in the United Kingdom — nearly 300,000 people of Pakistani heritage live across the capital, concentrated in areas like Waltham Forest, Newham, Redbridge, Ealing, Brent, and Hounslow. Alongside this, London's broader Muslim population of over one million makes it one of the most significant Muslim cities in the Western world.",
+      "London's Pakistani Muslim families are, on the whole, an established and professionally settled community — many are second and third generation British Pakistanis who have built successful careers in healthcare, law, business and finance. Yet despite that success, one concern remains constant across generations: ensuring children grow up with a genuine, deep connection to the Qur'an and their Islamic identity.",
+      "Our online Quran academy serves London families with live, one-on-one classes via Zoom — taught by experienced, trusted teachers who understand the values and background of Pakistani Muslim families. Whether your child is a complete beginner, a teenager who wants to improve their Tajweed, or an adult who never had the opportunity to learn properly — we teach every level, every age, with patience and care."
+    ],
+    featuresHeading: "Why London Families Choose Us",
+    features: [
+      {
+        title: "Female Teachers Available",
+        description: "Female teachers are available for all sisters and young girls across London. Every student is matched with a teacher their family is fully comfortable with."
+      },
+      {
+        title: "Flexible Timings for London Families",
+        description: "Morning, evening and weekend slots available — all in UK timezone, designed around London school hours and busy family schedules."
+      },
+      {
+        title: "All Ages Welcome",
+        description: "From young children in primary school to adults and elders — complete beginners are welcome and we move at whatever pace suits each student."
+      },
+      {
+        title: "One-on-One Live Classes",
+        description: "Every session is private, live, and entirely focused on your child. No group classes, no waiting — just a dedicated teacher and one student."
+      },
+      {
+        title: "Complete Curriculum",
+        description: "Hifz, Tajweed, Qaida, Tafseer, Kalima and Masnoon Du'ain — everything a London student needs from their very first Arabic letter to full Qur'an memorisation."
+      },
+      {
+        title: "Free Trial Class",
+        description: "Book a completely free first class with no commitment. See how online learning works for your child before making any decision."
+      }
+    ],
+    coursesHeading: "What We Teach",
+    coursesIntro: "We offer a complete Quranic curriculum for London students of all ages and levels — from the very first Arabic letters through to full Qur'an memorisation and Tafseer.",
+    faqHeading: "Questions From London Families",
+    faqs: [
+      {
+        question: "Are female Quran teachers available for my daughter in London?",
+        answer: "Yes — female teachers are available for all sisters and young girls. We know how important this is for London families and we ensure every student is paired with a teacher they feel completely comfortable learning from."
+      },
+      {
+        question: "What times are classes available for London students?",
+        answer: "We offer morning, evening and weekend slots, all scheduled in UK timezone. Whether your child needs a class before school, after school, or on a weekend — we will find a time that fits around your London family's schedule."
+      },
+      {
+        question: "My child was born in London and has never learned Arabic. Where do they start?",
+        answer: "They start with Qaida — the Arabic alphabet and reading foundations. This is where most London-born children begin, and there is no minimum level required. Many students start without knowing a single Arabic letter and progress to reading the Qur'an within months."
+      },
+      {
+        question: "How do online Quran classes work for London students?",
+        answer: "Classes take place via Zoom, which most London families already have on their phone, tablet or laptop. Your child joins at the agreed time and the teacher conducts the class live — listening, correcting and guiding in real time, exactly as a face-to-face class would work, just from home."
+      },
+      {
+        question: "Is online Quran learning as good as a local class in London?",
+        answer: "For personal attention, online is often better. A typical London mosque class may have fifteen to twenty students sharing one teacher — your child gets only minutes of direct focus. Our classes are entirely one-on-one, so every minute is dedicated to your child's individual progress and corrections happen immediately."
+      },
+      {
+        question: "How much do classes cost?",
+        answer: "The first class is completely free with no commitment. After that, we keep pricing simple and fair for London families. Message us on WhatsApp and we will discuss a schedule and fees that work for you."
+      }
+    ],
+    ctaHeading: "Give Your Child a Strong Foundation in the Qur'an",
+    ctaSubtext: "Join families across London who are ensuring their children grow up connected to their faith — from home, with a teacher they can trust.",
+    schemaServiceArea: "London, United Kingdom",
+    nearbyAreas: ["Waltham Forest", "Newham", "Redbridge", "Ealing", "Brent", "Hounslow", "Tower Hamlets"]
   }
 ];
