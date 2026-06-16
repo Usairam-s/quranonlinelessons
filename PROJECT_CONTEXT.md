@@ -106,7 +106,7 @@ proper icon components instead.
 - **Styling:** Tailwind CSS (assume default unless told otherwise)
 - **Database:** NONE — static/content site, no DB needed
 - **Hosting:** Vercel (planned)
-- **Analytics:** Google Analytics 4 (to be added later — not urgent for Phase 1)
+- **Analytics:** Google Analytics 4 installed via @next/third-parties, Measurement ID: G-YW2WQ0KRLF, live on Vercel, tracking all pages via root layout
 - **Images:** Placeholder strategy — developer (site owner) sources real
   images separately and provides URLs/paths. Claude specifies WHAT image is
   needed + ALT TEXT for SEO; developer fills in actual asset.
@@ -335,6 +335,8 @@ Phase 2):**
 (/online-quran-classes-birmingham) — NOT YET STARTED. Developer wants to
 review current build and discuss plan before proceeding.
 
+**Live site:** https://quranonlinelessons-seven.vercel.app
+
 ---
 
 ## 10. PROGRESS LOG
@@ -359,6 +361,8 @@ review current build and discuss plan before proceeding.
 - **USP Redesign & Final Courses** — Redesigned the USP trust bar as a premium dark-green-text (#0A3D24) slim horizontal strip with gold vertical dividers. Added 2 final course pages: "Kalima & Tawheed" (`/courses/kalima-tawheed`) and "Masnoon Du'ain" (`/courses/masnoon-duas`). Made all 6 cards in the "What We Teach" homepage grid clickable to their respective courses.
 
 - **USP Bar removed** — Developer manually commented out the USP Trust Bar section in app/page.tsx (agent was hitting errors attempting a clean removal). Confirmed redundant with "Our Features" section. Homepage confirmed back to clean 5-section structure: Hero → What We Teach → Our Features → CTA Banner → Footer. Total course pages: 6 (hifz, tajweed, qaida, tafseer, kalima-tawheed, masnoon-duas), all linked from homepage grid.
+
+- **Google Analytics 4 added** — Google Analytics 4 added (G-YW2WQ0KRLF) via @next/third-parties/google in root layout, pushed to GitHub, auto-deployed on Vercel
 
 ---
 
