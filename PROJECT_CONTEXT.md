@@ -301,7 +301,7 @@ is a good pattern to carry through the website for visual rhythm.
 
 ## 9. CURRENT PHASE / NEXT STEP
 
-**Current status:** Homepage v2 + 6 Course Pages COMPLETE.
+**Current status:** Homepage v2 + 6 Course Pages COMPLETE. Phase 2 started — Birmingham city page LIVE.
 
 Homepage structure (confirmed, 5 sections, alternating light/dark):
 Hero (dark, two-column with image placeholder) → What We Teach (cream,
@@ -326,9 +326,7 @@ homepage "What We Teach" grid.
 Phase 2):**
 - All image placeholders now replaced with real images (see Section 11).
 
-**Next step:** Phase 2 — Birmingham city landing page
-(/online-quran-classes-birmingham) — NOT YET STARTED. Developer wants to
-review current build and discuss plan before proceeding.
+**Next step:** Phase 2 in progress — Birmingham city page live on Vercel at /online-quran-classes-birmingham with real image (Birmingham Central Mosque via Cloudinary). Template ready for next cities: Bradford, Sydney, Melbourne.
 
 **Live site:** https://quranonlinelessons-seven.vercel.app
 
@@ -366,6 +364,8 @@ review current build and discuss plan before proceeding.
 - **Real images added to all 6 course pages** — Real images added to all 6 course pages via Cloudinary URLs, ImagePlaceholder replaced with Next.js Image component
 
 - **Fixed course page hero image height** — Changed from aspect-video to min-h with items-stretch so images fill full height of text content, no more top/bottom cropping
+
+- **Birmingham city page complete** — Built dynamic city landing page at /online-quran-classes-birmingham with full SEO metadata, LocalBusiness + FAQPage JSON-LD schemas, city-specific content (Sparkbrook, Small Heath, Handsworth areas), 6 locally-contextualized FAQs, features section, courses overview with links to main course pages, and dedicated FAQSection component. Added real image (Birmingham Central Mosque entrance, Cloudinary). Template structure now ready for Bradford, Sydney, Melbourne city pages. Phase 2 started.
 
 ---
 
