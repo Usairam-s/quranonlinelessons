@@ -324,8 +324,7 @@ homepage "What We Teach" grid.
 
 **Outstanding from earlier discussion (not yet done, revisit before/with
 Phase 2):**
-- 7 image placeholders still pending real images (see Section 11) —
-  developer to source and provide.
+- All image placeholders now replaced with real images (see Section 11).
 
 **Next step:** Phase 2 — Birmingham city landing page
 (/online-quran-classes-birmingham) — NOT YET STARTED. Developer wants to
@@ -364,6 +363,8 @@ review current build and discuss plan before proceeding.
 
 - **Global Header component created** — Global Header component created (app/components/Header.tsx) with sticky dark-green bar, brand name, desktop nav links (Home/Courses/About/Contact), gold CTA button (Book Free Trial → WhatsApp), mobile hamburger menu with dropdown. Added to root layout — active on all pages.
 
+- **Real images added to all 6 course pages** — Real images added to all 6 course pages via Cloudinary URLs, ImagePlaceholder replaced with Next.js Image component
+
 ---
 
 ## 11. IMAGE PLACEHOLDERS — TRACKING LIST
@@ -371,12 +372,12 @@ review current build and discuss plan before proceeding.
 | Page/Section | Placeholder Label | Status |
 | :--- | :--- | :--- |
 | Homepage Hero | Open Quran on wooden rehal stand, dark green background, warm lighting | Complete — Cloudinary URL added |
-| Hifz Course Hero | Student reciting Quran from memory with teacher listening on video call | Pending |
-| Tajweed Course Hero | Close-up of Quran page with Tajweed colour-coded markings | Pending |
-| Qaida Course Hero | Young child learning Arabic alphabet with teacher online, Qaida book visible | Pending |
-| Tafseer Course Hero | Teacher and student discussing Quran meaning over video call, open book and notes visible | Pending |
-| Kalima & Tawheed Course Hero | Child reciting Kalima with teacher on video call, simple calligraphy in background | Pending |
-| Masnoon Du'ain Course Hero | Open dua book with translation, soft warm lighting | Pending |
+| Hifz Course Hero | Student reciting Quran from memory with teacher listening on video call | Complete — Cloudinary URL added |
+| Tajweed Course Hero | Close-up of Quran page with Tajweed colour-coded markings | Complete — Cloudinary URL added |
+| Qaida Course Hero | Young child learning Arabic alphabet with teacher online, Qaida book visible | Complete — Cloudinary URL added |
+| Tafseer Course Hero | Teacher and student discussing Quran meaning over video call, open book and notes visible | Complete — Cloudinary URL added |
+| Kalima & Tawheed Course Hero | Child reciting Kalima with teacher on video call, simple calligraphy in background | Complete — Cloudinary URL added |
+| Masnoon Du'ain Course Hero | Open dua book with translation, soft warm lighting | Complete — Cloudinary URL added |
 
 ---
 
