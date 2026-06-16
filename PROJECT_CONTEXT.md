@@ -301,7 +301,7 @@ is a good pattern to carry through the website for visual rhythm.
 
 ## 9. CURRENT PHASE / NEXT STEP
 
-**Current status:** Homepage v2 + 6 Course Pages + 6 City Pages COMPLETE. PHASE 2 COMPLETE.
+**Current status:** Homepage v2 + 6 Course Pages + 6 City Pages + Female Quran Teacher Page + Kids Quran Classes Page COMPLETE. PHASE 3 COMPLETE.
 
 Homepage structure (confirmed, 5 sections, alternating light/dark):
 Hero (dark, two-column with real image) → What We Teach (cream,
@@ -319,7 +319,15 @@ London (UK) + Sydney, Melbourne (Australia) — each with full SEO metadata,
 LocalBusiness + FAQPage JSON-LD schemas, city-specific content, 6
 locally-contextualized FAQs, real images via Cloudinary.
 
-**Next step:** Phase 3 Part 2 — Kids Quran Classes page.
+Female Quran Teacher page live at /female-quran-teacher — global
+targeting (not city-specific), two-column hero, 3 main content sections,
+interactive FAQ accordion with custom FAQItem component.
+
+Kids Quran Classes page live at /kids-quran-classes — global targeting,
+two-column hero, 3 main content sections (Why Online Works, What We Offer,
+FAQ), interactive FAQ accordion with custom FAQItem component.
+
+**Next step:** Phase 4 — About + Contact pages.
 
 **Live site:** https://quranonlinelessons-seven.vercel.app
 
@@ -372,7 +380,9 @@ locally-contextualized FAQs, real images via Cloudinary.
 
 - **Melbourne city page live — PHASE 2 COMPLETE** — Melbourne city page added with full content (Broadmeadows, Coolaroo, Thomastown, Craigieburn, Truganina, Dandenong, Footscray areas), Melbourne-specific FAQs, and real image (Melbourne city, Cloudinary). All 6 city pages now built and live on Vercel: 4 UK cities (Birmingham, Bradford, Manchester, London) + 2 Australia cities (Sydney, Melbourne). Total pages: 16 (1 homepage + 6 course pages + 6 city pages + header/footer on all). Phase 2 complete — local SEO foundation in place for UK and Australia.
 
-- **Female Quran Teacher page built — PHASE 3 PART 1 COMPLETE** — Female Quran Teacher page built at /female-quran-teacher with real image (Cloudinary), full SEO content (global targeting, not city-specific), JSON-LD schema (EducationalOrganization + LocalBusiness), 5 alternating sections: Hero (dark, two-column with image) → Why Female Teacher Matters (light, 3 paragraphs) → What We Offer (dark, 6 feature cards) → FAQ (light, 5 questions using static FAQ display) → Final CTA (dark) → Footer. Page built successfully, npm run build passed with zero errors. Phase 3 Part 1 complete.
+- **Female Quran Teacher page built and live — PHASE 3 PART 1 COMPLETE** — Female Quran Teacher page built and live at /female-quran-teacher — two-column hero with real image (Cloudinary), 3 main content sections (Why Female Teacher Matters, What We Offer 6-card grid, FAQ), interactive FAQ accordion using custom FAQItem component with cream background matching design system. Global targeting (not city-specific), full SEO metadata, JSON-LD schema. Phase 3 Part 1 complete.
+
+- **Kids Quran Classes page built — PHASE 3 PART 2 COMPLETE** — Kids Quran Classes page built at /kids-quran-classes with two-column hero, real image via Cloudinary, 3 main content sections (Why Online Works for Kids, What We Offer 6-card grid, FAQ with 6 questions), interactive FAQ accordion using custom FAQItem component, full SEO metadata. Global targeting (not city-specific). Phase 3 Part 2 complete. Phase 3 complete — Female Teacher + Kids pages built.
 
 ---
 
