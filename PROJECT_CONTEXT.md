@@ -148,7 +148,7 @@ initially due to timezone difficulty — 9-13hrs behind Pakistan)
 1. Birmingham, UK — LIVE
 2. Bradford, UK — LIVE
 3. Manchester, UK — LIVE
-4. London, UK (later — high competition, lower priority)
+4. London, UK — LIVE
 5. Sydney, Australia
 6. Melbourne, Australia
 
@@ -372,6 +372,8 @@ Phase 2):**
 - **Bradford city page live on Vercel** — Bradford city page now live with real image (Cloudinary). Two UK city pages now deployed: Birmingham + Bradford. Dynamic city page template proven and ready for Manchester, Sydney, Melbourne.
 
 - **Manchester city page live on Vercel** — Manchester city page added with full content (Rusholme, Longsight, Cheetham Hill, Levenshulme areas), Manchester-specific FAQs, and real image (Manchester Central Mosque, Cloudinary). Three UK city pages now live: Birmingham, Bradford, Manchester.
+
+- **London city page live on Vercel** — London city page added with full content (Waltham Forest, Newham, Redbridge, Ealing, Brent, Hounslow, Tower Hamlets areas), London-specific FAQs emphasizing established professional Pakistani community, and real image (East London Mosque, Cloudinary). All 4 UK city pages now live: Birmingham, Bradford, Manchester, London. UK local SEO coverage complete.
 
 ---
 
