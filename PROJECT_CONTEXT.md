@@ -147,7 +147,7 @@ initially due to timezone difficulty — 9-13hrs behind Pakistan)
 
 1. Birmingham, UK — LIVE
 2. Bradford, UK — LIVE
-3. Manchester, UK (later)
+3. Manchester, UK — LIVE
 4. London, UK (later — high competition, lower priority)
 5. Sydney, Australia
 6. Melbourne, Australia
@@ -370,6 +370,8 @@ Phase 2):**
 - **Bradford city page data added** — Bradford city page data added to app/cities/data.ts with full content (Manningham, Girlington, Toller, Great Horton, Heaton areas), Bradford-specific FAQs, and placeholder imageUrl. Page builds successfully at /online-quran-classes-bradford — pending real image before push to production.
 
 - **Bradford city page live on Vercel** — Bradford city page now live with real image (Cloudinary). Two UK city pages now deployed: Birmingham + Bradford. Dynamic city page template proven and ready for Manchester, Sydney, Melbourne.
+
+- **Manchester city page live on Vercel** — Manchester city page added with full content (Rusholme, Longsight, Cheetham Hill, Levenshulme areas), Manchester-specific FAQs, and real image (Manchester Central Mosque, Cloudinary). Three UK city pages now live: Birmingham, Bradford, Manchester.
 
 ---
 
