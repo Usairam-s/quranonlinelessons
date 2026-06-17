@@ -104,6 +104,7 @@ proper icon components instead.
 
 - **Framework:** Next.js (App Router), TypeScript
 - **Styling:** Tailwind CSS (assume default unless told otherwise)
+- **CMS:** Sanity CMS (project ID: 4in0ph6b, production dataset) for blog content management
 - **Database:** NONE — static/content site, no DB needed
 - **Hosting:** Vercel (planned)
 - **Analytics:** Google Analytics 4 installed via @next/third-parties, Measurement ID: G-YW2WQ0KRLF, live on Vercel, tracking all pages via root layout
@@ -301,9 +302,9 @@ is a good pattern to carry through the website for visual rhythm.
 
 ## 9. CURRENT PHASE / NEXT STEP
 
-**PHASE 4 COMPLETE — About + Free Trial pages live. Next: Phase 5 — Sanity CMS blog setup**
+**Phase 5 COMPLETE — Sanity CMS blog setup done. Blog listing at /blog, individual posts at /blog/[slug]. WhatsApp CTA on every post. Family can publish via Sanity dashboard at sanity.io. Next: Phase 6 — Buy domain + Google Search Console**
 
-Homepage v2 + 6 Course Pages + 6 City Pages + Female Quran Teacher Page + Kids Quran Classes Page + About Page + Free Trial Page COMPLETE.
+Homepage v2 + 6 Course Pages + 6 City Pages + Female Quran Teacher Page + Kids Quran Classes Page + About Page + Free Trial Page + Blog System COMPLETE.
 
 Homepage structure (confirmed, 5 sections, alternating light/dark):
 Hero (dark, two-column with real image) → What We Teach (cream,
@@ -335,7 +336,7 @@ more detailed content to be added later.
 Free Trial page live at /free-trial — 3-step process, what to expect
 section, contact cards (WhatsApp + Instagram).
 
-**Next step:** Phase 5 — Sanity CMS blog setup.
+**Next step:** Phase 6 — Buy domain + Google Search Console.
 
 **Live site:** https://quranonlinelessons-seven.vercel.app
 
@@ -397,6 +398,8 @@ section, contact cards (WhatsApp + Instagram).
 - **PHASE 4 COMPLETE** — Phase 4 complete — About page built at /about (placeholder content, story to be added later) + Free Trial page built at /free-trial with 3-step process (message WhatsApp → schedule class → join Zoom), what to expect section (4 bullet points), contact cards (WhatsApp + Instagram with icons). Header nav links updated to point to real pages: About → /about, Free Trial → /free-trial (replaced Contact placeholder). Total pages now: 20 (1 homepage + 6 courses + 6 cities + 2 topic pages + about + free-trial + header/footer on all).
 
 - **Phase 4 complete — About page live at /about + Free Trial page live at /free-trial. Header nav updated. Phase 4 done.**
+
+- **Phase 5 complete — Sanity CMS connected (project ID: 4in0ph6b), blog schema created, /blog listing page + /blog/[slug] post pages built, @portabletext/react installed, cdn.sanity.io added to next.config, Blog added to header nav**
 
 ---
 
