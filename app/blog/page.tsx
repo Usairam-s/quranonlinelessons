@@ -44,14 +44,16 @@ export default async function BlogPage() {
               <Link
                 key={post._id}
                 href={`/blog/${post.slug.current}`}
-                className="group block border border-brand-gold/20 rounded-2xl overflow-hidden hover:border-brand-gold transition-colors"
+                className="group block bg-white shadow-md hover:shadow-xl border border-brand-gold/10 rounded-2xl overflow-hidden hover:border-brand-gold transition-all"
               >
                 {post.coverImage && (
-                  <div className="relative aspect-video w-full overflow-hidden">
+                  <div className="relative aspect-video w-full overflow-hidden bg-brand-cream">
                     <Image
                       src={urlFor(post.coverImage).width(600).height(338).url()}
                       alt={post.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      loading="eager"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
