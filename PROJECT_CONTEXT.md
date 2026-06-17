@@ -302,7 +302,7 @@ is a good pattern to carry through the website for visual rhythm.
 
 ## 9. CURRENT PHASE / NEXT STEP
 
-**Phase 5 COMPLETE — Sanity CMS blog setup done. Blog listing at /blog, individual posts at /blog/[slug]. WhatsApp CTA on every post. Family can publish via Sanity dashboard at sanity.io. Next: Phase 6 — Buy domain + Google Search Console**
+**Phase 5 COMPLETE — Sanity CMS blog live. Next: Add /studio to website then Phase 6 — domain + Google Search Console**
 
 Homepage v2 + 6 Course Pages + 6 City Pages + Female Quran Teacher Page + Kids Quran Classes Page + About Page + Free Trial Page + Blog System COMPLETE.
 
@@ -336,7 +336,7 @@ more detailed content to be added later.
 Free Trial page live at /free-trial — 3-step process, what to expect
 section, contact cards (WhatsApp + Instagram).
 
-**Next step:** Phase 6 — Buy domain + Google Search Console.
+**Next step:** Add /studio to website then Phase 6 — domain + Google Search Console.
 
 **Live site:** https://quranonlinelessons-seven.vercel.app
 
@@ -400,6 +400,8 @@ section, contact cards (WhatsApp + Instagram).
 - **Phase 4 complete — About page live at /about + Free Trial page live at /free-trial. Header nav updated. Phase 4 done.**
 
 - **Phase 5 complete — Sanity CMS connected (project ID: 4in0ph6b), blog schema created, /blog listing page + /blog/[slug] post pages built, @portabletext/react installed, cdn.sanity.io added to next.config, Blog added to header nav**
+
+- **Phase 5 complete — Sanity CMS connected, blog listing at /blog, individual post pages at /blog/[slug], breadcrumb + share button on post pages, WhatsApp CTA on every post. Pushed to GitHub, live on Vercel.**
 
 ---
 
