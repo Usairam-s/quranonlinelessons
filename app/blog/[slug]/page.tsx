@@ -12,24 +12,62 @@ import { ShareButton } from "./ShareButton"
 export const revalidate = 60
 
 export async function generateStaticParams() {
-  const posts = await client.fetch(allPostsQuery)
-  return posts.map((post: any) => ({ slug: post.slug.current }))
+  try {
+    const posts = await client.fetch(allPostsQuery)
+    return posts.map((post: any) => ({ slug: post.slug.current }))
+  } catch (error) {
+    console.error('Failed to fetch posts for static params:', error)
+    return []
+  }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params
-  const post = await client.fetch(postBySlugQuery, { slug })
-  return {
-    title: `${post?.title} | Quran Online Lessons`,
-    description: post?.excerpt || "",
+  try {
+    const { slug } = await params
+    const post = await client.fetch(postBySlugQuery, { slug })
+    return {
+      title: `${post?.title || 'Blog Post'} | Quran Online Lessons`,
+      description: post?.excerpt || "Read our latest articles on Quran education",
+    }
+  } catch (error) {
+    return {
+      title: 'Blog Post | Quran Online Lessons',
+      description: 'Read our latest articles on Quran education',
+    }
   }
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const post = await client.fetch(postBySlugQuery, { slug })
+  
+  let post
+  try {
+    post = await client.fetch(postBySlugQuery, { slug })
+  } catch (error) {
+    console.error('Failed to fetch post:', error)
+    return (
+      <LightSection>
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="font-display text-3xl font-bold text-brand-dark-green-text mb-4">Unable to load post</h1>
+          <p className="text-brand-body-cream mb-6">There was an error loading this blog post.</p>
+          <Link href="/blog" className="text-brand-gold hover:text-brand-gold-bright">
+            ← Back to Blog
+          </Link>
+        </div>
+      </LightSection>
+    )
+  }
 
-  if (!post) return <div>Post not found</div>
+  if (!post) return (
+    <LightSection>
+      <div className="max-w-3xl mx-auto text-center">
+        <h1 className="font-display text-3xl font-bold text-brand-dark-green-text mb-4">Post not found</h1>
+        <Link href="/blog" className="text-brand-gold hover:text-brand-gold-bright">
+          ← Back to Blog
+        </Link>
+      </div>
+    </LightSection>
+  )
 
   return (
     <>
