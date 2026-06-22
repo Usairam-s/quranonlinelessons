@@ -56,7 +56,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-brand-white mb-6">
             {post.title}
           </h1>
-          <ShareButton />
           {post.excerpt && (
             <p className="text-brand-off-white-body text-lg leading-relaxed mt-6">
               {post.excerpt}
@@ -80,6 +79,36 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <LightSection>
         <div className="max-w-3xl mx-auto prose prose-lg">
           <PortableText value={post.body} />
+        </div>
+      </LightSection>
+
+      <LightSection>
+        <div className="max-w-3xl mx-auto">
+          <div className="border-t border-brand-gold/20 pt-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div className="flex flex-col items-center sm:items-start gap-1">
+              <p className="text-brand-body-cream text-sm">
+                Found this helpful?
+              </p>
+              <p className="text-brand-dark-green-text font-semibold text-sm">
+                Share it with other Muslim parents
+              </p>
+            </div>
+            <ShareButton />
+          </div>
+          <div className="mt-8 pt-8 border-t border-brand-gold/20 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-2 text-brand-gold hover:text-brand-gold-bright transition-colors text-sm font-medium"
+            >
+              ← Back to Blog
+            </Link>
+            <Link
+              href="/free-trial"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-brand-dark-green text-brand-gold border border-brand-gold/30 rounded-full text-sm font-medium hover:border-brand-gold transition-colors"
+            >
+              Book a Free Trial Class
+            </Link>
+          </div>
         </div>
       </LightSection>
 
