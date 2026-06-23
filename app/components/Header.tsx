@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -19,12 +20,16 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-brand-dark-green border-b border-brand-gold/20">
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* Brand Name */}
-          <Link
-            href="/"
-            className="font-display text-xl sm:text-2xl font-bold text-brand-gold hover:text-brand-gold-bright transition-colors"
-          >
-            Quran Online Lessons
+          {/* Brand Logo */}
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Quran Online Lessons"
+              width={360}
+              height={72}
+              className="h-16 sm:h-20 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
