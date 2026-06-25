@@ -115,13 +115,95 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       )}
 
       <LightSection>
-        <div className="max-w-3xl mx-auto prose prose-lg">
-          <PortableText value={post.body} />
-        </div>
-      </LightSection>
-
-      <LightSection>
         <div className="max-w-3xl mx-auto">
+          <PortableText
+            value={post.body}
+            components={{
+              block: {
+                normal: ({ children }) => (
+                  <p className="text-brand-body-cream text-base sm:text-lg leading-relaxed mb-6">
+                    {children}
+                  </p>
+                ),
+                h2: ({ children }) => (
+                  <h2 className="font-display text-2xl sm:text-3xl font-bold text-brand-dark-green-text mt-10 mb-4">
+                    {children}
+                  </h2>
+                ),
+                h3: ({ children }) => (
+                  <h3 className="font-display text-xl sm:text-2xl font-bold text-brand-dark-green-text mt-8 mb-3">
+                    {children}
+                  </h3>
+                ),
+                blockquote: ({ children }) => (
+                  <blockquote className="border-l-4 border-brand-gold pl-6 my-8 italic text-brand-body-cream text-lg">
+                    {children}
+                  </blockquote>
+                ),
+              },
+              list: {
+                bullet: ({ children }) => (
+                  <ul className="list-none space-y-3 mb-6 mt-2">
+                    {children}
+                  </ul>
+                ),
+                number: ({ children }) => (
+                  <ol className="list-none space-y-3 mb-6 mt-2 counter-reset-item">
+                    {children}
+                  </ol>
+                ),
+              },
+              listItem: {
+                bullet: ({ children }) => (
+                  <li className="flex items-start gap-3 text-brand-body-cream text-base sm:text-lg leading-relaxed">
+                    <span className="text-brand-gold font-bold mt-1 flex-shrink-0">✦</span>
+                    <span>{children}</span>
+                  </li>
+                ),
+                number: ({ children }) => (
+                  <li className="flex items-start gap-3 text-brand-body-cream text-base sm:text-lg leading-relaxed">
+                    <span className="text-brand-gold font-bold mt-1 flex-shrink-0">✦</span>
+                    <span>{children}</span>
+                  </li>
+                ),
+              },
+              marks: {
+                strong: ({ children }) => (
+                  <strong className="font-bold text-brand-dark-green-text">
+                    {children}
+                  </strong>
+                ),
+                em: ({ children }) => (
+                  <em className="italic text-brand-body-cream">
+                    {children}
+                  </em>
+                ),
+                link: ({ children, value }) => (
+                  <a
+                    href={value?.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand-gold hover:text-brand-gold-bright underline transition-colors"
+                  >
+                    {children}
+                  </a>
+                ),
+              },
+              types: {
+                image: ({ value }) => (
+                  <div className="my-8 rounded-2xl overflow-hidden">
+                    <img
+                      src={urlFor(value).width(800).url()}
+                      alt={value.alt || ""}
+                      className="w-full object-cover"
+                    />
+                  </div>
+                ),
+              },
+            }}
+          />
+
+          {/* Share button and navigation section */}
           <div className="border-t border-brand-gold/20 pt-8 flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="flex flex-col items-center sm:items-start gap-1">
               <p className="text-brand-body-cream text-sm">
