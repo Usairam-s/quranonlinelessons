@@ -5,6 +5,7 @@ import Image from "next/image";
 import { courses } from "../data";
 import DarkSection from "../../components/DarkSection";
 import LightSection from "../../components/LightSection";
+import Footer from "../../components/Footer";
 
 interface CoursePageProps {
   params: Promise<{ slug: string }>;
@@ -150,35 +151,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
         </div>
       </DarkSection>
 
-      {/* Footer */}
-      <footer className="bg-brand-dark-green text-brand-off-white-body py-8 px-4 border-t border-brand-gold/10">
-        <div className="max-w-7xl mx-auto text-center">
-          <h3 className="font-display text-2xl text-brand-gold mb-2">
-            <Link href="/" className="hover:text-brand-gold-bright transition-colors">
-              Quran Online Lessons
-            </Link>
-          </h3>
-          <p className="text-sm mb-4">
-            Online Quran Academy — Live 1-on-1 Classes
-          </p>
-
-          <div className="flex flex-wrap justify-center gap-2 text-sm mb-4">
-            <Link href="/" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Home</Link>
-            <span className="text-brand-gold/50">·</span>
-            <Link href="/courses/tajweed" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Tajweed</Link>
-            <span className="text-brand-gold/50">·</span>
-            <Link href="/courses/qaida" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Qaida</Link>
-            <span className="text-brand-gold/50">·</span>
-            <Link href="/courses/tafseer" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Tafseer</Link>
-            <span className="text-brand-gold/50">·</span>
-            <Link href="/courses/hifz" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Hifz</Link>
-          </div>
-
-          <p className="text-xs">
-            © 2025 Quran Online Lessons. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

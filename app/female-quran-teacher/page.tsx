@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import DarkSection from "../components/DarkSection";
 import LightSection from "../components/LightSection";
+import Footer from "../components/Footer";
 import Image from "next/image";
 import { FAQItem } from "./FAQItem";
 
@@ -187,30 +188,7 @@ export default function FemaleQuranTeacherPage() {
         </p>
       </DarkSection>
 
-      <footer className="bg-brand-dark-green text-brand-off-white-body py-8 px-4">
-        <div className="max-w-7xl mx-auto text-center">
-          <h3 className="font-display text-2xl text-brand-gold mb-2">
-            Quran Online Lessons
-          </h3>
-          <p className="text-sm mb-4">
-            Online Quran Academy — Live 1-on-1 Classes
-          </p>
-
-          <div className="flex flex-wrap justify-center gap-2 text-sm mb-4">
-            <a href="#" className="text-brand-gold hover:text-brand-gold-bright transition-colors">About</a>
-            <span className="text-brand-gold/50">·</span>
-            <a href="#" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Courses</a>
-            <span className="text-brand-gold/50">·</span>
-            <a href="#" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Free Trial</a>
-            <span className="text-brand-gold/50">·</span>
-            <a href="#" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Contact</a>
-          </div>
-
-          <p className="text-xs">
-            © 2025 Quran Online Lessons. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

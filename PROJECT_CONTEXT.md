@@ -403,7 +403,7 @@ section, contact cards (WhatsApp + Instagram).
 
 - **Phase 5 complete — Sanity CMS connected, blog listing at /blog, individual post pages at /blog/[slug], breadcrumb + share button on post pages, WhatsApp CTA on every post. Pushed to GitHub, live on Vercel.**
 
-- **PHASE 5 FULLY COMPLETE** — Phase 5 fully complete — improved share button with lucide icons (Share2, Check) + post footer with Back to Blog + Book Free Trial links added to every blog post. Share button moved from hero to post footer for cleaner layout. Sanity studio live at /studio. Blog tested and confirmed working on live site with full CMS functionality.
+- **Recent Blog Section added to homepage** — Created RecentBlogs server component (app/components/RecentBlogs.tsx) that fetches the 3 most recent blog posts from Sanity CMS using GROQ query. Component displays posts in a responsive grid (1 column mobile, 2 columns tablet, 3 columns desktop) with cover images, published dates, titles, and excerpts. Each post card has hover effects (scale image, change border color). Includes "View All Posts" button with ArrowRight icon linking to /blog page. Added to homepage between "Our Features" section and final CTA banner, wrapped in LightSection for proper alternating theme. Fully mobile responsive with touch-friendly cards. If no posts available, section doesn't render. Homepage now has 7 sections: Hero (dark) → What We Teach (cream) → Our Features (dark) → Recent Blogs (cream) → CTA Banner (cream) → Footer (dark).
 
 ---
 

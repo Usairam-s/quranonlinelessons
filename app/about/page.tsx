@@ -1,11 +1,13 @@
-import type { Metadata } from "next"
-import DarkSection from "../components/DarkSection"
-import LightSection from "../components/LightSection"
+import type { Metadata } from "next";
+import DarkSection from "../components/DarkSection";
+import LightSection from "../components/LightSection";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "About Us | Quran Online Lessons",
-  description: "Learn about our online Quran academy and our experienced teachers. One-on-one live classes via Zoom for kids, adults and sisters worldwide.",
-}
+  description:
+    "Learn about our online Quran academy and our experienced teachers. One-on-one live classes via Zoom for kids, adults and sisters worldwide.",
+};
 
 export default function AboutPage() {
   return (
@@ -17,13 +19,15 @@ export default function AboutPage() {
             About Quran Online Lessons
           </h1>
           <p className="text-brand-off-white-body text-lg sm:text-xl leading-relaxed">
-            We are a dedicated online Quran academy committed to helping Muslims around the world build a genuine, lasting connection with the Qur'an — one student at a time.
+            We are a dedicated online Quran academy committed to helping Muslims
+            around the world build a genuine, lasting connection with the Qur'an
+            — one student at a time.
           </p>
         </div>
       </DarkSection>
 
       {/* PLACEHOLDER CONTENT */}
-      <LightSection>
+      {/* <LightSection>
         <div className="max-w-3xl mx-auto">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-brand-dark-green-text mb-8">
             Our Story
@@ -35,7 +39,61 @@ export default function AboutPage() {
             More about our teachers and our story coming soon.
           </div>
         </div>
+      </LightSection> */}
+      {/* OUR STORY */}
+      <LightSection>
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-brand-dark-green-text mb-8">
+            Our Story
+          </h2>
+          <p className="text-brand-body-cream text-lg leading-relaxed mb-6">
+            We are not a large platform with dozens of unfamiliar tutors
+            assigned at random. We are a small, closely connected team that has
+            worked together for over 5 years — and it shows in how classes are
+            run. Every student is known personally, not just by name on a
+            schedule.
+          </p>
+          <p className="text-brand-body-cream text-lg leading-relaxed mb-6">
+            Over the years we have taught the very young just beginning to
+            recognise the Arabic alphabet, school-age children working through
+            Tajweed and Hifz, adults returning to the Qur'an after years away,
+            and elders seeking a deeper connection in the later chapters of
+            their lives. Every age group is welcome here, and every student is
+            taught according to their own pace.
+          </p>
+          <p className="text-brand-body-cream text-lg leading-relaxed">
+            What makes us different is not technology or scale. It is
+            consistency — the same teacher, the same care, and a genuine
+            relationship built one class at a time.
+          </p>
+        </div>
       </LightSection>
+
+      {/* MEET YOUR TEACHER */}
+      <DarkSection>
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-brand-white mb-8 text-center">
+            Meet Your Teacher
+          </h2>
+          <p className="text-brand-off-white-body text-lg leading-relaxed mb-6">
+            With over 5 years of dedicated teaching experience, our teacher has
+            guided students of every age and background — from young children
+            taking their first steps with the Arabic alphabet, to adults and
+            elders deepening their understanding of the Qur'an later in life.
+          </p>
+          <p className="text-brand-off-white-body text-lg leading-relaxed mb-6">
+            Classes are never rushed and never one-size-fits-all. Each student's
+            pace, personality, and goals shape how they are taught — which is
+            only possible because our numbers are kept small and personal by
+            design.
+          </p>
+          <p className="text-brand-off-white-body text-lg leading-relaxed">
+            We believe the best Qur'an education does not come from a large
+            impersonal platform. It comes from a teacher who knows your name,
+            remembers your progress, and genuinely cares whether you succeed.
+          </p>
+        </div>
+      </DarkSection>
 
       {/* CTA */}
       <DarkSection>
@@ -44,7 +102,8 @@ export default function AboutPage() {
             Want to Learn More?
           </h2>
           <p className="text-brand-off-white-body text-lg mb-8 leading-relaxed">
-            Book a free trial class and meet your teacher personally — the best way to understand who we are is to experience a class.
+            Book a free trial class and meet your teacher personally — the best
+            way to understand who we are is to experience a class.
           </p>
           <a
             href="https://wa.me/923021771373"
@@ -57,30 +116,7 @@ export default function AboutPage() {
         </div>
       </DarkSection>
 
-      <footer className="bg-brand-dark-green text-brand-off-white-body py-8 px-4">
-        <div className="max-w-7xl mx-auto text-center">
-          <h3 className="font-display text-2xl text-brand-gold mb-2">
-            Quran Online Lessons
-          </h3>
-          <p className="text-sm mb-4">
-            Online Quran Academy — Live 1-on-1 Classes
-          </p>
-
-          <div className="flex flex-wrap justify-center gap-2 text-sm mb-4">
-            <a href="#" className="text-brand-gold hover:text-brand-gold-bright transition-colors">About</a>
-            <span className="text-brand-gold/50">·</span>
-            <a href="#" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Courses</a>
-            <span className="text-brand-gold/50">·</span>
-            <a href="#" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Free Trial</a>
-            <span className="text-brand-gold/50">·</span>
-            <a href="#" className="text-brand-gold hover:text-brand-gold-bright transition-colors">Contact</a>
-          </div>
-
-          <p className="text-xs">
-            © 2025 Quran Online Lessons. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </>
-  )
+  );
 }
