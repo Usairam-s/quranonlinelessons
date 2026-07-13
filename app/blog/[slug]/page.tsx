@@ -1,85 +1,113 @@
-import type { Metadata } from "next"
-import Link from "next/link"
-import Image from "next/image"
-import { PortableText } from "@portabletext/react"
-import { client } from "../../../sanity/lib/client"
-import { urlFor } from "../../../sanity/lib/image"
-import { allPostsQuery, postBySlugQuery } from "../../../sanity/lib/queries"
-import DarkSection from "../../components/DarkSection"
-import LightSection from "../../components/LightSection"
-import Footer from "../../components/Footer"
-import { ShareButton } from "./ShareButton"
+import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
+import { PortableText } from "@portabletext/react";
+import { client } from "../../../sanity/lib/client";
+import { urlFor } from "../../../sanity/lib/image";
+import { allPostsQuery, postBySlugQuery } from "../../../sanity/lib/queries";
+import DarkSection from "../../components/DarkSection";
+import LightSection from "../../components/LightSection";
+import Footer from "../../components/Footer";
+import { ShareButton } from "./ShareButton";
 
-export const revalidate = 60
+export const revalidate = 60;
 
 export async function generateStaticParams() {
   try {
-    const posts = await client.fetch(allPostsQuery)
-    return posts.map((post: any) => ({ slug: post.slug.current }))
+    const posts = await client.fetch(allPostsQuery);
+    return posts.map((post: any) => ({ slug: post.slug.current }));
   } catch (error) {
-    console.error('Failed to fetch posts for static params:', error)
-    return []
+    console.error("Failed to fetch posts for static params:", error);
+    return [];
   }
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
   try {
-    const { slug } = await params
-    const post = await client.fetch(postBySlugQuery, { slug })
+    const { slug } = await params;
+    const post = await client.fetch(postBySlugQuery, { slug });
     return {
-      title: `${post?.title || 'Blog Post'} | Quran Online Lessons`,
-      description: post?.excerpt || "Read our latest articles on Quran education",
-    }
+      title: `${post?.title || "Blog Post"} | Quran Online Lessons`,
+      description:
+        post?.excerpt || "Read our latest articles on Quran education",
+    };
   } catch (error) {
     return {
-      title: 'Blog Post | Quran Online Lessons',
-      description: 'Read our latest articles on Quran education',
-    }
+      title: "Blog Post | Quran Online Lessons",
+      description: "Read our latest articles on Quran education",
+    };
   }
 }
 
-export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  
-  let post
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  let post;
   try {
-    post = await client.fetch(postBySlugQuery, { slug })
+    post = await client.fetch(postBySlugQuery, { slug });
   } catch (error) {
-    console.error('Failed to fetch post:', error)
+    console.error("Failed to fetch post:", error);
     return (
       <LightSection>
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="font-display text-3xl font-bold text-brand-dark-green-text mb-4">Unable to load post</h1>
-          <p className="text-brand-body-cream mb-6">There was an error loading this blog post.</p>
-          <Link href="/blog" className="text-brand-gold hover:text-brand-gold-bright">
+          <h1 className="font-display text-3xl font-bold text-brand-dark-green-text mb-4">
+            Unable to load post
+          </h1>
+          <p className="text-brand-body-cream mb-6">
+            There was an error loading this blog post.
+          </p>
+          <Link
+            href="/blog"
+            className="text-brand-gold hover:text-brand-gold-bright"
+          >
             ← Back to Blog
           </Link>
         </div>
       </LightSection>
-    )
+    );
   }
 
-  if (!post) return (
-    <LightSection>
-      <div className="max-w-3xl mx-auto text-center">
-        <h1 className="font-display text-3xl font-bold text-brand-dark-green-text mb-4">Post not found</h1>
-        <Link href="/blog" className="text-brand-gold hover:text-brand-gold-bright">
-          ← Back to Blog
-        </Link>
-      </div>
-    </LightSection>
-  )
+  if (!post)
+    return (
+      <LightSection>
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="font-display text-3xl font-bold text-brand-dark-green-text mb-4">
+            Post not found
+          </h1>
+          <Link
+            href="/blog"
+            className="text-brand-gold hover:text-brand-gold-bright"
+          >
+            ← Back to Blog
+          </Link>
+        </div>
+      </LightSection>
+    );
 
   return (
     <>
       <DarkSection>
         <div className="max-w-3xl mx-auto text-center">
           <nav className="mb-6 text-sm">
-            <Link href="/" className="text-brand-gold hover:text-brand-gold-bright transition-colors">
+            <Link
+              href="/"
+              className="text-brand-gold hover:text-brand-gold-bright transition-colors"
+            >
               Home
             </Link>
             <span className="text-brand-off-white-body mx-2">/</span>
-            <Link href="/blog" className="text-brand-gold hover:text-brand-gold-bright transition-colors">
+            <Link
+              href="/blog"
+              className="text-brand-gold hover:text-brand-gold-bright transition-colors"
+            >
               Blog
             </Link>
             <span className="text-brand-off-white-body mx-2">/</span>
@@ -103,7 +131,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </div>
       </DarkSection>
 
-      {post.coverImage && (
+      {/* {post.coverImage && (
         <div className="relative w-full aspect-video max-h-[500px] overflow-hidden">
           <Image
             src={urlFor(post.coverImage).width(1200).height(600).url()}
@@ -112,6 +140,40 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             className="object-cover"
             priority
           />
+        </div>
+      )} */}
+
+      {/* {post.coverImage && (
+        <div className="w-full px-4 sm:px-6 lg:px-8 py-8 bg-brand-cream">
+          <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src={urlFor(post.coverImage).width(1200).url()}
+              alt={post.title}
+              width={1200}
+              height={0}
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="w-full h-auto"
+              priority
+            />
+          </div>
+        </div>
+      )} */}
+
+      {post.coverImage && (
+        <div className="w-full px-4 sm:px-6 lg:px-8 pt-8 pb-0 bg-brand-cream">
+          <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src={urlFor(post.coverImage).width(1200).url()}
+              alt={post.title}
+              width={1200}
+              height={800}
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="w-full h-auto"
+              priority
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAACf/EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AJQAB/9k="
+            />
+          </div>
         </div>
       )}
 
@@ -144,9 +206,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               },
               list: {
                 bullet: ({ children }) => (
-                  <ul className="list-none space-y-3 mb-6 mt-2">
-                    {children}
-                  </ul>
+                  <ul className="list-none space-y-3 mb-6 mt-2">{children}</ul>
                 ),
                 number: ({ children }) => (
                   <ol className="list-none space-y-3 mb-6 mt-2 counter-reset-item">
@@ -157,13 +217,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               listItem: {
                 bullet: ({ children }) => (
                   <li className="flex items-start gap-3 text-brand-body-cream text-base sm:text-lg leading-relaxed">
-                    <span className="text-brand-gold font-bold mt-1 flex-shrink-0">✦</span>
+                    <span className="text-brand-gold font-bold mt-1 flex-shrink-0">
+                      ✦
+                    </span>
                     <span>{children}</span>
                   </li>
                 ),
                 number: ({ children }) => (
                   <li className="flex items-start gap-3 text-brand-body-cream text-base sm:text-lg leading-relaxed">
-                    <span className="text-brand-gold font-bold mt-1 flex-shrink-0">✦</span>
+                    <span className="text-brand-gold font-bold mt-1 flex-shrink-0">
+                      ✦
+                    </span>
                     <span>{children}</span>
                   </li>
                 ),
@@ -175,9 +239,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   </strong>
                 ),
                 em: ({ children }) => (
-                  <em className="italic text-brand-body-cream">
-                    {children}
-                  </em>
+                  <em className="italic text-brand-body-cream">{children}</em>
                 ),
                 link: ({ children, value }) => (
                   <a
@@ -239,8 +301,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             Have a Question About This?
           </h2>
           <p className="text-brand-off-white-body mb-8 leading-relaxed">
-            Message us directly on WhatsApp — we reply personally
-            and would love to help.
+            Message us directly on WhatsApp — we reply personally and would love
+            to help.
           </p>
           <a
             href="https://wa.me/923021771373"
@@ -255,5 +317,5 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
       <Footer />
     </>
-  )
+  );
 }
