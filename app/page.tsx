@@ -2,12 +2,13 @@ import DarkSection from "./components/DarkSection";
 import LightSection from "./components/LightSection";
 import SoftGreenSection from "./components/SoftGreenSection";
 import QuoteBox from "./components/QuoteBox";
+import AyahHadithSection from "./components/AyahHadithSection";
 import RecentBlogs from "./components/RecentBlogs";
 import Footer from "./components/Footer";
+import { Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { BookOpen, Type, Languages, BookMarked, Hand, UserRound, Clock, Users, Video, GraduationCap, ClipboardCheck, MessageCircle, AtSign, Repeat, Sparkles } from "lucide-react";
-
 
 export default function Home() {
   const teachings = [
@@ -229,6 +230,10 @@ export default function Home() {
           </div>
         </div>
       </DarkSection>
+
+      <Suspense fallback={null}>
+        <AyahHadithSection />
+      </Suspense>
 
       <SoftGreenSection>
         <RecentBlogs />

@@ -19,3 +19,19 @@ body {
   font-family: var(--font-body);
   margin: 0;
 }
+
+.card-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #D4AF37 transparent;
+}
+.card-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.card-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.card-scroll::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 99px;
+  opacity: 0.6;
+}
