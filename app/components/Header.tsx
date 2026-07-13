@@ -23,13 +23,21 @@ export default function Header() {
           <Link href="/" className="flex items-center group">
             <div className="flex items-center leading-none gap-1">
               {/* Large Q */}
-              <span className="font-display text-5xl sm:text-6xl font-bold text-brand-gold group-hover:text-brand-gold-bright transition-colors leading-none">Q</span>
-              
+              <span className="font-display text-5xl sm:text-6xl font-bold text-brand-gold group-hover:text-brand-gold-bright transition-colors leading-none">
+                Q
+              </span>
+
               {/* Stacked text: uran, Online, Classes */}
               <div className="flex flex-col justify-center leading-none gap-0.5">
-                <span className="font-display text-sm sm:text-base font-bold text-brand-white group-hover:text-brand-gold transition-colors leading-none">uran</span>
-                <span className="font-body text-[10px] sm:text-xs text-brand-off-white-body group-hover:text-brand-gold transition-colors tracking-wide leading-none">Online</span>
-                <span className="font-body text-[10px] sm:text-xs text-brand-off-white-body group-hover:text-brand-gold transition-colors tracking-wide leading-none">Classes</span>
+                <span className="font-display text-sm sm:text-base font-bold text-brand-white group-hover:text-brand-gold transition-colors leading-none">
+                  uran
+                </span>
+                <span className="font-body text-[10px] sm:text-xs text-brand-off-white-body group-hover:text-brand-gold transition-colors tracking-wide leading-none">
+                  Online
+                </span>
+                <span className="font-body text-[10px] sm:text-xs text-brand-off-white-body group-hover:text-brand-gold transition-colors tracking-wide leading-none">
+                  Lessons
+                </span>
               </div>
             </div>
           </Link>
@@ -98,7 +106,7 @@ export default function Header() {
                   </Link>
                 );
               })}
-              
+
               {/* Mobile CTA Button - Full Width */}
               <a
                 href="https://wa.me/923021771373"
