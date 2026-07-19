@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, Home, BookOpen, FileText, Info } from "lucide-react";
+import { Menu, X, Home, BookOpen, FileText, Info, Clock } from "lucide-react";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -10,6 +10,7 @@ export default function Header() {
   const navLinks = [
     { label: "Home", href: "/", icon: Home },
     { label: "Courses", href: "/#what-we-teach", icon: BookOpen },
+    { label: "Prayer Times", href: "/prayer-times", icon: Clock },
     { label: "Blog", href: "/blog", icon: FileText },
     { label: "About", href: "/about", icon: Info },
     // { label: "Free Trial", href: "/free-trial" },
