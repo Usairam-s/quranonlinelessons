@@ -62,6 +62,7 @@ export default function FemaleQuranTeacherPage() {
               src="https://res.cloudinary.com/dmx22dkwy/image/upload/v1781649895/How-to-choose-the-right-Quran-teacher_wicjdj.jpg"
               alt="Female Quran teacher teaching online - Quran Online Lessons"
               fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
               priority
             />

@@ -127,6 +127,7 @@ export default function Home() {
               src="https://res.cloudinary.com/dmx22dkwy/image/upload/v1781570023/pexels-firdevs-3490736-15694745_xbhwro.jpg"
               alt="Open Quran on wooden rehal stand - Learn Quran Online"
               fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
               priority
             />

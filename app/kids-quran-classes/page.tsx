@@ -47,6 +47,7 @@ export default function KidsQuranClassesPage() {
               src="https://res.cloudinary.com/dmx22dkwy/image/upload/v1781651214/Important-Steps-Needed-To-Make-Your-Kids-Master-Quran_vrhhpl.jpg"
               alt="Child learning Quran online - Kids Quran Classes"
               fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
               priority
             />

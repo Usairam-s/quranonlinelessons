@@ -119,6 +119,7 @@ export default async function CityPage({ params }: CityPageProps) {
               src={city.imageUrl}
               alt={`Online Quran classes in ${city.city} - Quran Online Lessons`}
               fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
               priority
             />

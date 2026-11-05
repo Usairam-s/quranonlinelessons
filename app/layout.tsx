@@ -42,8 +42,8 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${playfair.variable} ${poppins.variable}`}>
-      <body>
+    <html lang="en" className={`${playfair.variable} ${poppins.variable}`} suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
