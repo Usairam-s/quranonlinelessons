@@ -54,8 +54,6 @@ export default async function AyahHadithSection() {
         ? audio[0]?.ayah_audio ?? audio[0]?.url ?? audio[0]
         : audio?.ayah_audio ?? audio?.url ?? audio?.src;
 
-    console.log("[AyahHadithSection] audioUrl:", audioUrl, "raw audio:", JSON.stringify(audio));
-
     return (
       <LightSection>
         <h2 className="font-display text-3xl sm:text-4xl font-bold text-brand-dark-green-text text-center mb-4">

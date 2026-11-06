@@ -7,6 +7,7 @@ import DarkSection from "../components/DarkSection";
 import LightSection from "../components/LightSection";
 import Footer from "../components/Footer";
 import FAQSection from "./FAQSection";
+import TeacherAuthoritySection from "../components/TeacherAuthoritySection";
 
 interface CityPageProps {
   params: Promise<{ citySlug: string }>;
@@ -104,7 +105,7 @@ export default async function CityPage({ params }: CityPageProps) {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center w-full">
               <a
-                href="https://wa.me/923021771373"
+                href={`https://wa.me/923021771373?text=${encodeURIComponent(`Assalamu Alaikum, I would like to book a free trial Quran class for my child in ${city.city}.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-8 py-4 bg-brand-gold text-brand-black font-semibold rounded-full hover:bg-brand-gold-bright transition-colors text-center min-h-[44px] flex items-center justify-center"
@@ -165,6 +166,9 @@ export default async function CityPage({ params }: CityPageProps) {
         </div>
       </DarkSection>
 
+      {/* Teacher Authority Section */}
+      <TeacherAuthoritySection city={city.city} />
+
       {/* Courses Overview Section */}
       <LightSection>
         <div className="max-w-3xl mx-auto text-center">
@@ -215,7 +219,7 @@ export default async function CityPage({ params }: CityPageProps) {
           {city.ctaSubtext}
         </p>
         <a
-          href="https://wa.me/923021771373"
+          href={`https://wa.me/923021771373?text=${encodeURIComponent(`Assalamu Alaikum, I would like to book a free trial Quran class for my child in ${city.city}.`)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-black font-semibold rounded-full hover:bg-brand-gold-bright transition-colors min-h-[44px] mb-4"
