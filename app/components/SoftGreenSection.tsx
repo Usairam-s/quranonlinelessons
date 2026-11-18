@@ -14,7 +14,7 @@ export default function SoftGreenSection({
   return (
     <section 
       id={id}
-      className={`w-full bg-[#E8F0ED] text-brand-body-cream px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-20 lg:px-12 lg:py-24 ${className}`}
+      className={`w-full bg-[#EAF0F6] text-brand-body-cream px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-20 lg:px-12 lg:py-24 ${className}`}
     >
       <div className="max-w-7xl mx-auto">
         {children}

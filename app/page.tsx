@@ -5,6 +5,7 @@ import QuoteBox from "./components/QuoteBox";
 import AyahHadithSection from "./components/AyahHadithSection";
 import RecentBlogs from "./components/RecentBlogs";
 import Footer from "./components/Footer";
+import TeacherAuthoritySection from "./components/TeacherAuthoritySection";
 import { Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -235,6 +236,8 @@ export default function Home() {
       <Suspense fallback={null}>
         <AyahHadithSection />
       </Suspense>
+
+      <TeacherAuthoritySection />
 
       <SoftGreenSection>
         <RecentBlogs />
